@@ -42,12 +42,12 @@ function startAIGame(difficulty) {
 }
 
 function goBack() {
-  if (window.history.length > 1) {
-    window.history.back();
-  } else {
-    document.getElementById('page1').style.display = 'block';
-    document.getElementById('page2').style.display = 'none';
-    document.getElementById('aiDifficultyPopup').style.display = 'none';
+    if (window.history.length > 1) {
+      window.history.back();
+    } else {
+      document.getElementById('page1').style.display = 'block';
+      document.getElementById('page2').style.display = 'none';
+      document.getElementById('aiDifficultyPopup').style.display = 'none';
+    }
   }
-}
   
